@@ -57,7 +57,7 @@
 		var _this = this;
 
 		_this.rectangle.set({
-			left: (_this.canvas.width - 20) - (value * _this.canvas.width / 100)
+			left: (_this.canvas.width - 20) - (value * (_this.canvas.width - 20) / 100)
 		});
 		_this.canvas.renderAll();
 	};
